@@ -1,4 +1,5 @@
 # Aliases
+
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias ll="exa -l --icons --ignore-glob=node_modules"
