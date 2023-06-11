@@ -11,5 +11,3 @@ alias nvim="lvim"
 alias pro="cd ~/projects"
 
 alias reload='source ~/.zshrc'
-
-#
