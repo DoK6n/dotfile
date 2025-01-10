@@ -1,0 +1,193 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#836dcb",
+    "editorBracketHighlight.foreground2": "#BAB985",
+    "editorBracketHighlight.foreground3": "#77b199",
+    "editorBracketHighlight.foreground4": "#b77472",
+    "editorBracketHighlight.foreground5": "#6699CC",
+    "editorBracketHighlight.foreground6": "#ABB2BF",
+    "editorInlayHint.background": "#0000",
+    "editorInlayHint.foreground": "#888a",
+    "terminal.background": "#282828",
+    "terminal.foreground": "#ABB2BF",
+    "terminalCursor.background": "#ABB2BF",
+    "terminalCursor.foreground": "#ABB2BF",
+    "terminal.ansiBlack": "#282C34",
+    "terminal.ansiRed": "#b77472",
+    "terminal.ansiGreen": "#77b199",
+    "terminal.ansiYellow": "#BAB985",
+    "terminal.ansiBlue": "#67898a",
+    "terminal.ansiMagenta": "#836dcb",
+    "terminal.ansiCyan": "#6FBCBD",
+    "terminal.ansiWhite": "#ABB2BF",
+    "terminal.ansiBrightBlack": "#545862",
+    "terminal.ansiBrightRed": "#dd8c89",
+    "terminal.ansiBrightGreen": "#93bc99",
+    "terminal.ansiBrightYellow": "#fefdb5",
+    "terminal.ansiBrightBlue": "#83aeb0",
+    "terminal.ansiBrightMagenta": "#9b81f1",
+    "terminal.ansiBrightCyan": "#56B6C2",
+    "terminal.ansiBrightWhite": "#C8CCD4"
+  },
+  "editor.inlayHints.fontFamily": "FiraCode NF, 'FiraCode NFM', 'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "expand",
+  "editor.stickyScroll.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 5000,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.confirmSync": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 120,
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": false,
+  "files.associations": {
+    "*.xml": "html",
+    "*.svg": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[rust]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.tabSize": 4,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "iconColour": "#663399",
+      "foreground": "#fff",
+      "background": "#663399",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "iconColour": "#FC6C85",
+      "foreground": "#fff",
+      "background": "#FC6C85",
+      "gutterIcon": true
+    }
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#8d92e9",
+  "material-icon-theme.files.associations": {
+    "*.route.js": "Routing",
+    "*.route.ts": "Routing",
+    "router.tsx": "Routing",
+    "route.ts": "../../../icons/next-route",
+    "page.tsx": "../../../icons/next-page",
+    "layout.tsx": "../../../icons/next-layout",
+    "error.tsx": "../../../icons/next-error",
+    "loading.tsx": "../../../icons/next-loading-hourglass",
+    "not-found.tsx": "../../../icons/next-not-found"
+  },
+  "material-icon-theme.folders.associations": {
+    "src/features": "Controller",
+    "components": "react-components",
+    "store": "context",
+    "entities": "NgRx-entities",
+    "ui": "Shader"
+  },
+  "material-icon-theme.languages.associations": {},
+  "editor.cursorSmoothCaretAnimation": "on",
+  "reactSnippets.settings.importReactOnTop": false,
+  "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "cursor.cpp.disabledLanguages": [
+    "python"
+  ],
+  "leetcode.workspaceFolder": "/Users/dok6n/.leetcode",
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commentDescription": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.scopes": [
+    "document",
+    "containers"
+  ],
+  "gitlens.graph.layout": "editor",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-turbo-preview",
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches",
+    "tags"
+  ],
+  "prisma.showPrismaDataPlatformNotification": false,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "testing.openTesting": "openExplorerOnTestStart",
+  "workbench.productIconTheme": "bongocat",
+  "cursor.chat.smoothStreaming": true,
+  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true
+}
